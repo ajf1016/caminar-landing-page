@@ -1,0 +1,313 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote {
+	quotes: none;
+}
+blockquote:before, blockquote:after {
+	content: '';
+	content: none;
+}
+del {
+	text-decoration: line-through;
+}
+header, section, article, aside, nav, footer, address {
+	display: block;
+}
+body {
+	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #333;
+	overflow-x: hidden;
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+	min-width: 320px;
+}
+input,textarea,select{
+	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+}
+a{
+	color: #333;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: 'open_sanslight';
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1200px;
+	overflow: hidden;
+}
+
+
+
+
+
+/*css styles starts here*/
+
+.header{
+	text-align: center;
+	padding: 3%;
+}
+.header h1{
+	color: #fff;
+	font-size: 50px;
+	font-weight: 800;
+	display: grid;
+	font-family: sans-serif;
+}
+.header h1 span{
+	font-size: 20px;
+	font-weight: 100;
+	color: #F3F1F1;
+}
+
+#spotlight{
+
+}
+#spotlight .top{
+
+}
+#spotlight .top a{
+	display: block;
+}
+#spotlight .top a img{
+	display: block;
+	width: 100%;
+}
+#spotlight .bottom{
+	padding: 0;
+}
+#spotlight .wrapper .bottom .head{
+	background-color: #fff;
+	padding: 4% 0;
+	text-align: center;
+}
+#spotlight .bottom .head h3{
+	margin-bottom: 2%;
+	font-size: 25px;
+	font-weight: bold;
+}
+#spotlight .bottom .head span{
+	width: 10%;
+    border-bottom: 1px solid #7A7676;
+    display: block;
+    margin: 0 auto;
+}
+#spotlight .bottom .head h4{
+	margin-top: 2%;
+	font-size: 12px;
+}
+#spotlight .bottom .para{
+	background-color: #FFFAFA;
+	padding: 3% 4%;
+	text-align: left;
+}
+#spotlight .bottom .para p{
+	font-size: 15px;
+	line-height: 1.9em;
+	font-family: sans-serif;
+	margin-bottom: 3%;
+}
+
+#Gallery{
+	 
+}
+#Gallery .content{
+	background-color: #2B2A2A;
+	padding: 5% 0;
+}
+#Gallery .content .top{
+	background-color: #000;
+	text-align: center;
+	color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+#Gallery .content .top h4{
+	margin-bottom: 2%;
+	font-size: 25px;
+	font-weight: bold;
+}
+#Gallery .content .top span{
+	width: 10%;
+    border-bottom: 1px solid #7A7676;
+    display: block;
+    margin: 0 auto;
+}
+#Gallery .content .top h3{
+	margin-top: 2%;
+	font-size: 12px;
+}
+#Gallery .content .bottom{
+	display: flex;
+	flex-wrap: wrap;
+}
+#Gallery .content .bottom a{
+	display: block;
+	width: 45%;
+	margin-left: 5%;
+}
+#Gallery .content .bottom a:nth-child(even){
+	margin-left: 0;
+}
+#Gallery .content .bottom a img{
+	width: 100%;
+	display: block;
+}
+
+
+#content{ 
+
+}
+#content .item{ 
+	display: flex;
+}
+#content .item .left{ 
+	width: 50%;
+}
+#content .item .left a{ 
+	display: block;
+}
+#content .item .left a img{ 
+	width: 100%;
+	display: block;
+}
+#content .item .right{ 
+	background-color: #fff;
+	padding: 8% 5%;
+	width: 50%;
+}
+#content .item .right h4{ 
+	font-size: 27px;
+	color: #000;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+#content .item .right p{ 
+	font-size: 15px;
+    color: #2d2d2d;
+    font-family: sans-serif;
+    width: 57%;
+}
+
+
+
+#content .item-2{ 
+	display: flex;
+}
+#content .item-2 .right{ 
+	width: 50%;
+}
+#content .item-2 .right a{ 
+	display: block;
+}
+#content .item-2 .right a img{ 
+	width: 100%;
+	display: block;
+}
+#content .item-2 .left{ 
+	background-color: #2B2A2A;
+	padding: 6% 4%;
+	width: 50%;
+	text-align: right;
+}
+#content .item-2 .left h4{ 
+	font-size: 27px;
+	color: #fff;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+#content .item-2 .left p{ 
+	font-size: 15px;
+    color: #747070;
+    font-family: sans-serif;
+    
+}
+
+footer { 
+	padding: 3% 0;
+}
+
+footer .top { 
+	text-align: center;
+	margin-bottom: 2%;
+}
+
+footer .top a { 
+
+}
+
+footer .top a .icon { 
+	color: #FFF;
+	font-size: 40px;
+}
+
+footer .bottom { 
+	text-align: center;
+}
+
+footer .bottom p { 
+	color: #fff;
+	font-size: 12px;
+}
+
+footer .bottom p a { 
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*css styles ends here*/
+/*responsive styles starts here*/
+
+/*@media all and (max-width: 1280px){}
+@media all and (max-width: 980px){
+	#Gallery .content .bottom a{
+		display: block;
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+@media all and (max-width: 768px){}
+@media all and (max-width: 640px){}
+@media all and (max-width: 480px){}
+@media all and (max-width: 360px){}*/
+
+/*responsive styles ends here*/
